@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.5;
+    
+}
+
+html {
+    font-size: 62.5%;
+    color: black;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+.site-header {
+    /* background-image: url('https://www.trailheadcoffeeshop.com/wp-content/uploads/2018/10/banner-1-1360x605.jpg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+
+.header-container {
+    background-color: gray;
+    text-align: center;
+}
+
+
+.header-logo {
+    padding-top: 6px;
+}
+.header-logo h1 {
+    border:1px solid black;
+    text-align: center;
+    font-weight: 500;
+}
+
+.header-nav {
+    margin-top: 20px;
+}
+
+.nav-menu__items a {
+    margin: .4rem 0;
+    text-align: center;
+    font-style: normal;    
+}
