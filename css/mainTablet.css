@@ -1,0 +1,21 @@
+.site-header {
+    height: 35rem;
+}
+
+.nav-menu {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 2rem;
+}
+
+.header-container__texto p{
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    display:block;
+}
