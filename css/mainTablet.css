@@ -1,0 +1,19 @@
+.site-header {
+    height: 30rem;
+}
+
+.nav-menu {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin-right: 2rem;
+}
+
+.header-container__texto p{
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    display:block;
+}
