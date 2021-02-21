@@ -14,11 +14,13 @@ body {
 
 html {
     font-size: 62.5%;
-    color: black;
+    color: white;
 }
 
 h1 {
     font-size: 4rem;
+    color: white;
+
 }
 
 h1, h2 {
@@ -32,24 +34,25 @@ a {
 }
 
 .site-header {
-    /* background-image: url('https://www.trailheadcoffeeshop.com/wp-content/uploads/2018/10/banner-1-1360x605.jpg'); */
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)),
+     url('https://www.ticocoffee.com/images/articulos/Barismo/How-to-brew-coffee-pt3-a-7-steps-brewing-guide/barra-de-cafe.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     height: auto;
 }
 
+
 .header-container {
-    background-color: gray;
+    max-width: 85%;
+    margin: 0 auto;
     text-align: center;
 }
-
 
 .header-logo {
     padding-top: 6px;
 }
 .header-logo h1 {
-    border:1px solid black;
     text-align: center;
     font-weight: 500;
 }
@@ -58,8 +61,26 @@ a {
     margin-top: 20px;
 }
 
-.nav-menu__items a {
-    margin: .4rem 0;
-    text-align: center;
-    font-style: normal;    
+.nav-menu li {
+    list-style: none;
+    margin: 0.4rem 0;
+}
+
+.nav-menu a {
+    color: white;
+}
+
+.header-container__texto {
+    margin: 2rem 0;
+}
+
+.header-container__texto h2 {
+    font-size: 4rem;
+    padding: 1rem 0;
+    font-weight: 200;
+    font-family: 'Amatic SC', cursive;
+}
+
+.header-container__texto p {
+    display: none;
 }
