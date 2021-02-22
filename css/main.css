@@ -86,3 +86,42 @@ a {
 .header-container__texto p {
     display: none;
 }
+
+/* FOOTER */
+
+.site-footer {
+    background-color: gray;
+}
+
+.footer-container {
+    display: flex;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.footer-nav {
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.footer-nav li {
+    list-style: none;
+    margin: 1px 5px 1px 0px;
+}
+
+.footer-nav a {
+    color: white;
+}
+
+.creator span{
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
