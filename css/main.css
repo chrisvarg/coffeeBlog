@@ -20,10 +20,17 @@ html {
 h1 {
     font-size: 4rem;
     color: white;
-
 }
 
-h1, h2 {
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -86,6 +93,107 @@ a {
 .header-container__texto p {
     display: none;
 }
+
+
+/* MAIN */
+
+.main-container {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.main-blog h2 {
+    margin-bottom: 2rem;
+    border-top: .2rem solid #ddd;
+    border-bottom: .2rem solid #ddd;
+    padding: 1rem;
+}
+
+.main-container h2, 
+h3{
+    font-family: "Amatic SC", cursive;
+}
+
+.blog {
+    margin-bottom: 2rem;
+}
+
+.blog-image {
+    margin: 0 auto;
+    max-width: 350px;
+}
+
+.blog-image img {
+    width: 100%
+}
+
+.blog-contain h3 {
+    margin: 1rem 0;
+}
+
+.blog-contain p {
+    padding: 5px;
+    text-align:start;
+    margin: 1.6rem 0;
+}
+
+.botton-more div{
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 29, 29);
+    border-radius: .4rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18.5rem;
+    height: 4rem;
+    padding: .5rem;
+    font-weight: 500;
+}
+
+.main-sidebar {
+    margin: 0 auto;
+}
+
+.main-sidebar h2{
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.list-curses {
+    margin: 1.6rem 0;
+}
+
+.curses {
+    list-style: none;
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: .5rem;
+}
+
+.curses h4 {
+    margin: 0 auto;
+    padding-top: 1rem;
+    text-align: center;
+    height: 4rem;
+}
+
+.curses p{
+    padding-top: 1rem;
+    text-align: center;
+    height: 4rem;
+}
+
+.curses div {
+    margin-bottom: 2rem;
+}
+
+
+
+
 
 /* FOOTER */
 
