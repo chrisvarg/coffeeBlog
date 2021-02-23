@@ -97,13 +97,28 @@ a {
 
 /* MAIN */
 
+
+
 .main-container {
-    display: flex;
+    display: grid;
+    grid-template-areas: 'cursos'
+                         'blog';
     color: black;
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
 }
+
+.main-blog { 
+margin: 28px;
+grid-area: blog;
+}
+
+.main-sidebar {
+    margin: 28px;
+    grid-area: cursos;
+}
+
 
 .main-blog h2 {
     margin-bottom: 2rem;
@@ -182,17 +197,20 @@ h3{
 }
 
 .curses p{
+    font-weight: 500;
     padding-top: 1rem;
     text-align: center;
     height: 4rem;
 }
 
-.curses div {
-    margin-bottom: 2rem;
+.curses span {
+    font-weight: 300;
 }
 
-
-
+.curses div {
+    margin-bottom: 2rem;
+    background-color: rgb(49 49 49);;
+}
 
 
 /* FOOTER */
