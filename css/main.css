@@ -97,7 +97,9 @@ a {
 
 /* MAIN */
 
-
+main {
+    width: 100vw;
+}
 
 .main-container {
     display: grid;
@@ -138,11 +140,11 @@ h3{
 
 .blog-image {
     margin: 0 auto;
-    max-width: 350px;
+    min-width: 350px;
 }
 
 .blog-image img {
-    width: 100%
+    width: 100%;
 }
 
 .blog-contain h3 {

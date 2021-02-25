@@ -19,3 +19,36 @@
     padding-bottom: 3rem;
     display:block;
 }
+
+/* MAIN */
+
+.main-container {
+    display: flex;
+}
+
+.main-blog {
+    margin: 0;
+    flex: 0 0 calc(70% - 3rem);
+}
+
+.blog {
+    display: flex;
+}
+
+.blog-image {
+    flex: 0 0 calc(50% - 2rem);
+    min-width: 19rem;
+}
+
+.blog-contain {
+    width: 50%;
+}
+
+
+.main-sidebar {
+    margin: 0;
+    flex: 0 0 calc(30%);
+
+}
+
+
