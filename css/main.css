@@ -41,16 +41,26 @@ a {
 }
 
 .site-header {
-    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)),
-     url('/img/banner.jpg');
+    background-image: url('/img/banner.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: auto;
+	position: relative; 
 }
 
+.site-header:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
 
 .header-container {
+    position: relative;
     max-width: 85%;
     margin: 0 auto;
     text-align: center;
