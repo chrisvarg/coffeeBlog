@@ -42,7 +42,7 @@ a {
 
 .site-header {
     background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)),
-     url('https://www.ticocoffee.com/images/articulos/Barismo/How-to-brew-coffee-pt3-a-7-steps-brewing-guide/barra-de-cafe.jpg');
+     url('/img/banner.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
