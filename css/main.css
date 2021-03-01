@@ -140,7 +140,9 @@ h3{
 
 .blog-image {
     margin: 0 auto;
-    min-width: 350px;
+    max-width: 350px;
+    border-style: none;
+
 }
 
 .blog-image img {
@@ -157,15 +159,16 @@ h3{
     margin: 1.6rem 0;
 }
 
-.botton-more div{
+
+.botton-more {
+    display: flex;
     color: rgb(255, 255, 255);
     background-color: rgb(51, 29, 29);
     border-radius: .4rem;
     margin: 0 auto;
-    display: flex;
     justify-content: center;
     align-items: center;
-    width: 18.5rem;
+    max-width: 50%;
     height: 4rem;
     padding: .5rem;
     font-weight: 500;
@@ -209,9 +212,9 @@ h3{
     font-weight: 300;
 }
 
-.curses div {
+.curses .botton-more {
     margin-bottom: 2rem;
-    background-color: rgb(49 49 49);;
+    background-color: rgb(49, 49, 49);
 }
 
 
