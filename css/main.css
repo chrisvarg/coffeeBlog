@@ -221,12 +221,14 @@ h3{
 /* FOOTER */
 
 .site-footer {
-    background-color: gray;
+    background-color: rgb(49, 49, 49);
 }
 
 .footer-container {
+    margin: 0 auto;
+    max-width: 85%;
     display: flex;
-    padding: 1.5rem;
+    padding: 2rem;
     align-items: center;
     justify-content: space-between;
 }
@@ -250,7 +252,7 @@ h3{
     color: white;
 }
 
-.creator span{
+.creator {
     text-align: center;
     font-size: 1.2rem;
     font-style: normal;
