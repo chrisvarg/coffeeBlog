@@ -9,7 +9,7 @@ body {
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 1.5;
-    
+
 }
 
 html {
@@ -41,12 +41,12 @@ a {
 }
 
 .site-header {
-    background-image: url('/img/banner.jpg');
+    background: url('https://www.ticocoffee.com/images/articulos/Barismo/How-to-brew-coffee-pt3-a-7-steps-brewing-guide/barra-de-cafe.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: auto;
-	position: relative; 
+	position: relative;
 }
 
 .site-header:before {
@@ -57,8 +57,8 @@ a {
 	left: 0;
 	right: 0;
 	background-color: rgba(0,0,0,0.6);
-}
 
+}
 .header-container {
     position: relative;
     max-width: 85%;
@@ -121,7 +121,7 @@ main {
     text-align: center;
 }
 
-.main-blog { 
+.main-blog {
 margin: 28px;
 grid-area: blog;
 }
@@ -139,7 +139,7 @@ grid-area: blog;
     padding: 1rem;
 }
 
-.main-container h2, 
+.main-container h2,
 h3{
     font-family: "Amatic SC", cursive;
 }
