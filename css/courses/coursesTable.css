@@ -20,6 +20,22 @@
     display:block;
 }
 
+.course {
+    display: flex;
+}
+
+.course-image {
+    flex: 0 0 calc(33.3%);
+}
+
+.course-contain {
+    flex: 0 0 calc(63.3% - 2rem);
+}
+
+.course-contain p {
+    line-height: 4rem;
+}
+
 
 @media(min-width: 800px) {
     .header-container__bar {
@@ -35,5 +51,9 @@
     
     .nav-menu__items {
         margin: 0px;
+    }
+
+    .main-course {
+        margin: 100px;
     }
 }

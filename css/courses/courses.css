@@ -104,34 +104,21 @@ a {
     display: none;
 }
 
-
 /* MAIN */
-
 
 main {
     width: 100vw;
 }
 
 .main-container {
-    display: grid;
-    grid-template-areas: 'cursos'
-                         'course';
-    color: black;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: block;
     text-align: center;
 }
 
 .main-course { 
-margin: 28px;
-grid-area: course;
-}
-
-.main-sidebar {
+    color: black;
     margin: 28px;
-    grid-area: cursos;
 }
-
 
 .main-course h2 {
     margin-bottom: 2rem;
@@ -146,8 +133,9 @@ h3{
 }
 
 .course {
+    margin-top: 2rem;
     margin-bottom: 2rem;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .course-image {
@@ -177,46 +165,9 @@ span {
     font-weight: 500;
 }
 
-.main-sidebar {
-    margin: 0 auto;
-}
-
-.main-sidebar h2{
-    margin-bottom: 2rem;
-    padding: 1rem;
-}
-
-.list-curses {
-    margin: 1.6rem 0;
-}
-
-.curses {
-    list-style: none;
-    margin: 2rem 0;
+.course-contain {
     border: 1px solid #ddd;
-    border-radius: .5rem;
 }
-
-.curses h4 {
-    margin: 0 auto;
-    padding-top: 1rem;
-    text-align: center;
-    height: 4rem;
-}
-
-.curses p{
-    font-weight: 500;
-    padding-top: 1rem;
-    text-align: center;
-    height: 4rem;
-}
-
-.curses span {
-    font-weight: 300;
-}
-
-
-
 
 /* FOOTER */
 
