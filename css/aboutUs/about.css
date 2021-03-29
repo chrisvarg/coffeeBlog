@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.5;   
+}
+
+html {
+    font-size: 62.5%;
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* HEADER */
+
+.site-header {
+    background-image: url('/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+	position: relative; 
+}
+
+.site-header:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.header-container {
+    position: relative;
+    max-width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-logo {
+    padding-top: 6px;
+}
+.header-logo h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.header-nav {
+    margin-top: 20px;
+}
+
+.nav-menu li {
+    height: 3rem;
+    list-style: none;
+    margin: 0.4rem 0;
+    font-size: 2rem;
+}
+
+.nav-menu a {
+    color: white;
+}
+
+.header-container__texto {
+    margin: 2rem 0;
+}
+
+.header-container__texto h2 {
+    font-size: 4rem;
+    padding: 1rem 0;
+    font-weight: 200;
+    font-family: 'Amatic SC', cursive;
+}
+
+.header-container__texto p {
+    display: none;
+}
+
+/* MAIN */
+
+.site-main {
+    color: black;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.main-container h2 {
+    text-align: center;
+    margin: 33.2px 0;
+}
+
+.main-about p {
+    text-align: justify;
+}
+
+.main-about__image {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.main-about__image img {
+    max-width: 350px;
+    width: 100%;
+    align-items: center;
+}
+
+/* FOOTER */
+
+.site-footer {
+    background-color: rgb(49, 49, 49);
+}
+
+.footer-container {
+    margin: 0 auto;
+    max-width: 85%;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.footer-nav {
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.footer-nav li {
+    list-style: none;
+    margin: 1px 5px 1px 0px;
+}
+
+.footer-nav a {
+    color: white;
+}
+
+.creator {
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
