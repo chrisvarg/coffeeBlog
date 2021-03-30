@@ -120,6 +120,7 @@ li {
 .main-container h2 {
     text-align: center;
     margin: 33.2px 0;
+    font-family: 'Amatic SC', cursive;
 }
 
 .main-about p {
@@ -129,10 +130,10 @@ li {
 .main-about__image {
     margin: 0 auto;
     margin-bottom: 30px;
+    max-width: 500px;
 }
 
 .main-about__image img {
-    max-width: 350px;
     width: 100%;
     align-items: center;
 }
